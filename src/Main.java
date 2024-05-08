@@ -21,7 +21,7 @@ public class Main {
         // Задача №3
         //for (int i = massiv.length - 1; i >= 0; i--) {
         //System.out.print(massiv[i]); // не понимаю как поставить запятые , если добавлю "," то в конце будет запятая
-        //}// еще думал использовать реверс  но что то статей нету
+        //} еще думал использовать реверс  но что то статей нету
         System.out.println(massiv[2] + ", " + massiv[1] + ", " + massiv[0]);
         System.out.println(massiv2[2] + ", " + massiv2[1] + ", " + massiv2[0]);
         System.out.println(massiv3[2] + ", " + massiv3[1] + ", " + massiv3[0]);
