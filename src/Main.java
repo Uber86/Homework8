@@ -51,11 +51,11 @@ public class Main {
 
         // Задача №4
 
-        for (int i = massiv[0]; i < massiv.length-1; i++) {
-            if (massiv.length-1 % 2 != 0) {
-                massiv[i] = massiv[i + 1];
-                System.out.println(Arrays.toString(massiv));
+        for(int i =0; i <massiv.length; i++) {
+            if (massiv[i] %  2 != 0) {
+                massiv[i] ++;
             }
         }
+        System.out.println(Arrays.toString(massiv));
     }
 }
